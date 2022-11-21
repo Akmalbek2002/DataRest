@@ -1,15 +1,15 @@
-//package com.example.datarest.Controller;
-//
-//import com.example.datarest.Entity.Maxsulot;
-//import com.example.datarest.Repository.MaxsulotRepository;
-//import org.springframework.beans.factory.annotation.Autowired;
-//import org.springframework.web.bind.annotation.*;
-//
-//import java.util.List;
-//import java.util.Optional;
-//
-//@RestController
-//public class MaxsulotController {
+package com.example.datarest.Controller;
+
+import com.example.datarest.Entity.Maxsulot;
+import com.example.datarest.Repository.MaxsulotRepository;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.*;
+
+import java.util.List;
+import java.util.Optional;
+
+@RestController
+public class MaxsulotController {
 //
 //    @Autowired
 //    MaxsulotRepository maxsulotRepository;
@@ -69,4 +69,4 @@
 //            maxsulotRepository.delete(maxsulot);
 //            return  "Malumot o'chirildi!";
 //    }
-//}
+}
